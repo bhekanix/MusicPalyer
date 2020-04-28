@@ -41,7 +41,7 @@ public class BaseSetup {
     //  The below method will kill the android driver after it has completed the execution   
     @AfterSuite
     public void tearDown() {
-        // androidDriver.quit(); 
+        androidDriver.quit();
         System.out.println("We are done");
     }
 }
